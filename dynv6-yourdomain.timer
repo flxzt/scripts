@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for script-dynv6_yourdomain.service
+
+[Timer]
+OnBootSec=2m
+OnUnitActiveSec=2m
+
+[Install]
+WantedBy=multi-user.target

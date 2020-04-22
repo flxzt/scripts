@@ -1,0 +1,9 @@
+[Unit]
+Description=Service for script-dynv6_yourdomain.sh update script
+
+[Service]
+User=<user>
+ExecStart=/usr/bin/sh /opt/script-dynv6_yourdomain.sh
+
+[Install]
+WantedBy=multi-user.target
